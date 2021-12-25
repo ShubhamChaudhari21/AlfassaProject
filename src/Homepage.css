@@ -1,6 +1,7 @@
 .titleBar {
   background-color: #212121;
   width: 100%;
+  color: #9e9e9e;
 }
 .titleText {
   font-size: 21px !important;
@@ -30,4 +31,29 @@
     repeat center center;
   opacity: 0.4;
   width: 100%;
+}
+.rightMenu {
+  margin-left: auto;
+  padding-right: 80px;
+}
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 996px) {
+  .rightMenu {
+    padding-right: 30px;
+  }
+  .hamburger {
+    display: block;
+    color: #2196f3 !important;
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 100%;
+    height: inherit;
+    font-size: 30px;
+    padding: 2px;
+  }
+  .desktop-rightMenu {
+    display: none;
+  }
 }

@@ -62,7 +62,7 @@ function SearchSection() {
           </div>
         </div>
 
-        <p className="footer">
+        <p className="footer mb-0 text-center">
           You can install our search engine on your browser.
         </p>
       </div>
