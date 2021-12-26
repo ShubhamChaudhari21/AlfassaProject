@@ -1,5 +1,6 @@
 import "./Homepage.css";
 import SearchSection from "./SearchSection";
+import BodySection from "./BodySection";
 
 function Homepage() {
   return (
@@ -15,6 +16,9 @@ function Homepage() {
       </div>
       <div className="searchSection">
         <SearchSection />
+      </div>
+      <div className="BodySection">
+        <BodySection />
       </div>
     </div>
   );

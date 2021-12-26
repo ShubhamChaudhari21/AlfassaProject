@@ -1,0 +1,67 @@
+.BodySection {
+  background-color: whitesmoke;
+  padding: 20px 3.5%;
+}
+.BodySection > .title {
+  font-size: 1.5rem;
+}
+.poweredBy {
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  border: 1px solid white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 27, 27);
+  width: fit-content;
+  margin-top: 3px;
+  font-size: 14px;
+}
+.CardSection {
+  margin-top: 7px;
+}
+.CardSection .card {
+  border-radius: 0px;
+  width: 300px;
+  /* margin-left: 20px; */
+}
+.card .cardImage {
+  height: 200px;
+  object-fit: cover;
+}
+.cardBrand {
+  margin: 10px 0px 0px 15px;
+}
+.cardBrand .brandImage {
+  width: 48px;
+  height: 48px;
+  transform: translateY(-50%);
+  border-radius: 100%;
+}
+.cardBrand .brandTitle {
+  margin-left: 5px;
+}
+.brandTitle > .title {
+  color: rgb(31, 27, 27);
+  font-weight: 700;
+}
+.brandTitle > .meta {
+  color: rgb(31, 27, 27);
+  font-size: 70%;
+}
+.meta > div {
+  padding-right: 4px;
+}
+
+.card .cardTitle {
+  margin-top: 30px;
+  color: rgb(31, 27, 27);
+  font-weight: 600;
+}
+.card .cardContent {
+  padding: 5px 10px;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
