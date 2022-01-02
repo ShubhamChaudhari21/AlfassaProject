@@ -4,6 +4,8 @@ import Homepage from "./Homepage.js";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import { Buffer } from "buffer";
+global.Buffer = Buffer;
 
 ReactDOM.render(
   <React.StrictMode>
