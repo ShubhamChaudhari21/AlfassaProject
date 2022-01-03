@@ -1,3 +1,8 @@
+.Hompage {
+  background: radial-gradient(#1585ed, #0e61ae);
+  height: 100%;
+  width: 100%;
+}
 .titleBar {
   background-color: #212121;
   width: 100%;
@@ -15,14 +20,14 @@
 .searchSection {
   position: relative;
   width: 100%;
-  background: radial-gradient(#1585ed, #0e61ae);
+  /* background: radial-gradient(#1585ed, #0e61ae); */
   padding-top: 50px;
   color: #fff;
 }
-.searchSection::after {
+.Hompage::after {
   content: "";
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -31,6 +36,7 @@
     repeat center center;
   opacity: 0.4;
   width: 100%;
+  z-index: 0;
 }
 .rightMenu {
   margin-left: auto;

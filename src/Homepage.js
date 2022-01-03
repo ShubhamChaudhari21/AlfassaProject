@@ -4,7 +4,7 @@ import BodySection from "./BodySection";
 
 function Homepage() {
   return (
-    <div>
+    <div className="Hompage">
       <div className="titleBar d-flex">
         <div className="titleText">AlfaSearch</div>
         <div className="rightMenu d-flex align-items-center pr-2">
