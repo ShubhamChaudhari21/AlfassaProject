@@ -20,48 +20,37 @@
   margin-top: 7px;
 }
 .CardSection .card {
-  border-radius: 0px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 0, rgb(0 0 0 / 10%) 0 2px 3px 0;
   width: 300px;
-  /* margin-left: 20px; */
+  padding: 5px 10px;
 }
-.card .cardImage {
-  height: 200px;
-  object-fit: cover;
-}
-.cardBrand {
-  margin: 10px 0px 0px 15px;
-}
-.cardBrand .brandImage {
-  width: 48px;
-  height: 48px;
-  transform: translateY(-50%);
-  border-radius: 100%;
-}
-.cardBrand .brandTitle {
-  margin-left: 5px;
-}
-.brandTitle > .title {
-  color: rgb(31, 27, 27);
-  font-weight: 700;
-}
-.brandTitle > .meta {
-  color: rgb(31, 27, 27);
-  font-size: 70%;
-}
-.meta > div {
-  padding-right: 4px;
+.cardImage {
+  width: 100px;
 }
 
 .card .cardTitle {
-  margin-top: 30px;
-  color: rgb(31, 27, 27);
+  font-size: 15px;
   font-weight: 600;
-}
-.card .cardContent {
-  padding: 5px 10px;
+  padding: 3px 0px;
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cardContent {
+  font-size: 13px;
+  padding-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   display: -webkit-box !important;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   white-space: normal;
+}
+.cardContentBody {
+  height: 100px;
+  padding: 3px 0px;
 }
