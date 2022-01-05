@@ -1,7 +1,13 @@
 .Hompage {
   background: radial-gradient(#1585ed, #0e61ae);
-  height: 100%;
+  height: 100vh;
   width: 100%;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.Hompage::-webkit-scrollbar {
+  display: none;
 }
 .titleBar {
   background-color: #212121;
