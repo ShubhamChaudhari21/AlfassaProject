@@ -29,7 +29,9 @@ const responsive = {
 function BodySection() {
   const [dataStore, setdataStore] = useState([]);
   const [filteredData, setfilteredData] = useState([]);
-
+  useEffect(() => {
+    console.log(filteredData);
+  }, [filteredData]);
   useEffect(() => {
     //Initially load datainto dataStore
     axios
@@ -154,11 +156,13 @@ function BodySection() {
           {filteredData !== undefined
             ? filteredData.map((item) => {
                 return (
-                  <CardSection
-                    image={item.image}
-                    title={item.title}
-                    content={item.description}
-                  />
+                  <a href={item.link} target="_blank">
+                    <CardSection
+                      image={item.image}
+                      title={item.title}
+                      content={item.description}
+                    />
+                  </a>
                 );
               })
             : ""}
