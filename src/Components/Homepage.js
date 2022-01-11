@@ -1,10 +1,11 @@
-import "./Homepage.css";
+import "../Styles/Homepage.css";
 import SearchSection from "./SearchSection";
 import BodySection from "./BodySection";
+import Footer from "./Footer";
 
 function Homepage() {
   return (
-    <div className="Hompage">
+    <div className="Hompage d-flex flex-column">
       <div className="titleBar d-flex">
         <div className="titleText">AlfaSearch</div>
         <div className="rightMenu d-flex align-items-center pr-2">
@@ -19,6 +20,9 @@ function Homepage() {
       </div>
       <div className="BodySection">
         <BodySection />
+      </div>
+      <div className="mt-auto">
+        <Footer />
       </div>
     </div>
   );

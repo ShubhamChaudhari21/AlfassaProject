@@ -1,7 +1,7 @@
 import React from "react";
-import "./SearchSection.css";
-import search from "./images/search.png";
-import mic from "./images/mic.png";
+import "../Styles/SearchSection.css";
+import search from "../images/search.png";
+import mic from "../images/mic.png";
 
 function SearchSection() {
   return (

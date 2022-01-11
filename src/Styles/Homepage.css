@@ -10,6 +10,8 @@
   display: none;
 }
 .titleBar {
+  position: relative;
+  z-index: 99;
   background-color: #212121;
   width: 100%;
   color: #9e9e9e;
@@ -51,6 +53,17 @@
 .hamburger {
   display: none;
 }
+
+.footerBar {
+  position: relative;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+.footerBar > .rightContent > div:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 996px) {
   .rightMenu {
     padding-right: 30px;

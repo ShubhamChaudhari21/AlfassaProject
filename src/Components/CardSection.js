@@ -1,5 +1,5 @@
 import React from "react";
-import "./BodySection.css";
+import "../Styles/BodySection.css";
 
 function CardSection(props) {
   return (

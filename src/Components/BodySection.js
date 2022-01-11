@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./BodySection.css";
+import "../Styles/BodySection.css";
 import CardSection from "./CardSection";
 import axios from "axios";
 import Carousel from "react-multi-carousel";
