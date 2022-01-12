@@ -2,16 +2,13 @@ import React from "react";
 import "../Styles/SearchSection.css";
 import search from "../images/search.png";
 import mic from "../images/mic.png";
+import AlfassaImage from "../images/Alfassa.jpg";
 
 function SearchSection() {
   return (
     <div className="searchSectionComponent">
       <div className="searchContent d-flex flex-column justify-content-center align-items-center">
-        <img
-          src="https://alfassa.org/imgs/general/logo-53877.png"
-          alt="alfassaImage"
-          className="alfassaImage"
-        />
+        <img src={AlfassaImage} alt="alfassaImage" className="alfassaImage" />
 
         <p className="searchTitle text-center">
           Insieme per creare un futuro migliore!
@@ -32,7 +29,7 @@ function SearchSection() {
             <img
               className="alfaSocialIcon"
               alt="alfaSocialIcon"
-              src="https://alfassa.org/alfasocial.png"
+              src="https://www.enersat.it/wp-content/uploads/2022/01/Alfa-Social-1.png"
             />
             <p>AlfaSocial</p>
           </div>
@@ -40,7 +37,7 @@ function SearchSection() {
             <img
               className="alfaTubeIcon"
               alt="alfaTubeIcon"
-              src="https://alfassa.org/alfassatube-icon.png"
+              src="https://www.enersat.it/wp-content/uploads/2022/01/Alfa-Tube.png"
             ></img>
             <p>AlfaTube</p>
           </div>
@@ -48,7 +45,7 @@ function SearchSection() {
             <img
               className="newsIcon"
               alt="newsIcon"
-              src="https://alfassa.org/news.png"
+              src="https://www.enersat.it/wp-content/uploads/2022/01/Alfa-Media.png"
             ></img>
             <p>News</p>
           </div>
@@ -56,7 +53,7 @@ function SearchSection() {
             <img
               className="alfassaIcon"
               alt="alfassaIcon"
-              src="https://alfassa.org/alfaworld.png"
+              src="https://www.enersat.it/wp-content/uploads/2022/01/ALFASSA.png"
             ></img>
             <p>Alfassa</p>
           </div>

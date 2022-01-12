@@ -1,9 +1,8 @@
 .alfassaImage {
   position: relative;
-  color: #fff;
   z-index: 200;
-  height: 180px;
-  width: 185px;
+  height: 210px;
+  width: 300px;
 }
 .searchContent {
   padding: 50px 0px;
@@ -14,9 +13,8 @@
   font-weight: 400;
   line-height: 1.25;
   z-index: 5 !important;
-  color: #fff;
   font-family: "Segoe WPC", "Segoe UI", Tahoma, Verdana, sans-serif;
-  padding: 20px 0px;
+  padding-bottom: 20px;
   text-shadow: 0 1px 3px rgb(0 0 0 / 40%), 0 0 30px rgb(0 0 0 / 8%);
 }
 .inputForm {
@@ -26,15 +24,18 @@
   z-index: 99;
   height: 45px;
   padding: 0 15px 0 15px;
-  background-color: #fff;
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 .searchInput {
+  color: #000;
   height: inherit;
   border: none;
   opacity: 0.4;
   font-weight: 400;
   width: 100%;
+}
+.searchInput::placeholder {
+  color: #000;
 }
 input:focus,
 textarea:focus,
@@ -62,10 +63,10 @@ select:focus {
 .footer {
   z-index: 99;
   text-shadow: 0 1px 3px rgb(0 0 0 / 40%), 0 0 30px rgb(0 0 0 / 8%);
-  color: #ffffff80;
+  color: rgba(0, 0, 0, 0.5);
 }
 .footer:hover {
-  color: #fff;
+  color: rgba(0, 0, 0, 1);
 }
 
 @media screen and (max-width: 600px) {

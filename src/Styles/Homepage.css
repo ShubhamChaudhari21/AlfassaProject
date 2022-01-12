@@ -1,25 +1,26 @@
+:root {
+  --contrast: #e8e8e8;
+}
 .Hompage {
-  background: radial-gradient(#1585ed, #0e61ae);
   height: 100vh;
   width: 100%;
   overflow-y: scroll;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  color: black;
 }
 .Hompage::-webkit-scrollbar {
   display: none;
 }
 .titleBar {
+  background-color: var(--contrast);
   position: relative;
   z-index: 99;
-  background-color: #212121;
   width: 100%;
-  color: #9e9e9e;
 }
 .titleText {
   font-size: 21px !important;
   margin-left: 10px;
-  color: #9e9e9e;
   font-size: 1.5rem;
   padding: 5px 0px 3px 50px;
   white-space: nowrap;
@@ -30,21 +31,6 @@
   width: 100%;
   /* background: radial-gradient(#1585ed, #0e61ae); */
   padding-top: 50px;
-  color: #fff;
-}
-.Hompage::after {
-  content: "";
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: url(https://alfassa.org/assets/templates/default/imgs/pattern.png)
-    repeat center center;
-  opacity: 0.4;
-  width: 100%;
-  z-index: 0;
 }
 .rightMenu {
   margin-left: auto;
@@ -55,10 +41,9 @@
 }
 
 .footerBar {
+  background-color: var(--contrast);
   position: relative;
   z-index: 99;
-  background-color: rgba(0, 0, 0, 0.75);
-  color: white;
 }
 .footerBar > .rightContent > div:hover {
   cursor: pointer;
@@ -71,8 +56,8 @@
   .hamburger {
     display: block;
     color: #2196f3 !important;
-    border: 1px solid white;
-    background-color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
     border-radius: 100%;
     height: inherit;
     font-size: 30px;
