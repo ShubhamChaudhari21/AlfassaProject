@@ -31,12 +31,12 @@
   color: #000;
   height: inherit;
   border: none;
-  opacity: 0.4;
   font-weight: 400;
   width: 100%;
 }
 .searchInput::placeholder {
   color: #000;
+  opacity: 0.4;
 }
 input:focus,
 textarea:focus,
@@ -47,8 +47,6 @@ select:focus {
   border: none;
 }
 .images {
-  transform: scale(0.65);
-  background-color: #fff;
   width: 35px;
   cursor: pointer;
 }

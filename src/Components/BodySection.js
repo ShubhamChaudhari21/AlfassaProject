@@ -132,7 +132,6 @@ function BodySection() {
         );
       });
 
-      // console.log(filterDataArray)
       setfilteredData(filterDataArray);
     }
   }, [dataStore]);
