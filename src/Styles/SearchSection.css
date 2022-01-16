@@ -54,6 +54,9 @@ select:focus {
   padding: 80px 0px 20px 0px;
   z-index: 99;
 }
+.iconTray > a > div > p {
+  color: #000;
+}
 .iconTray img {
   padding: 0px 25px;
   height: 75px;
